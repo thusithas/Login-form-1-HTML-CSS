@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: rgb(109,6,6);
+}
+.wrapper{
+    position: relative;
+    width: 1100px;
+    height: 700px;
+}
+
+.wrapper .form-container{
+    position: absolute;
+    top: 10px;
+    left: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height: 98%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 1rem 0 rgba(0 0 0 / .2);
+}
+form{
+    position: relative;
+}
+form h2{
+    font-size:50px;
+    text-align:center;
+    color:rgb(167,11,11);
+    position: relative;
+    top:40px;
+    font-weight:600;
+}
+form .form-group{
+    position:relative;
+    width: 350px;
+    margin:30px;
+}
+form .form-group i,
+form .form-group label{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    font-size:20px;
+    text-transform:capitalize;
+    color:rgb(167,11,11);
+    padding:5px;
+    pointer-events:none;
+    transition:all .5s ease;
+}
+.form-group i{
+    width: 20px;
+    left:10px;
+    color:rgb(167,11,11);
+}
+.form-group{
+    position:relative;
+    top:30px;
+}
+label{
+    left:40px;
+}
+.form-group input{
+    width:100%;
+    height:50px;
+    border-radius: .5rem;
+    border:none;
+    outline:none;
+    border:2px solid rgb(167,11,11);
+    font-size:20px;
+    color:black;
+    background:white;
+}
+.form-group input:focus~label,
+.form-group input:valid~label,
+.form-group input:focus~i,
+.form-group input:valid~i{
+    top: 0 !important;
+    font-size:10px !important;
+    background-color:white;
+    height:20px;
+}
+form .forgot-pass{
+    position:relative;
+    left:225px;
+    margin:2px 2px;
+}
+.forgot-pass a{
+    color:rgb(6,6,99);
+    text-decoration:none;
+    font-size:20px;
+    text-transform:capitalize;
+    transform:all .5s ease;
+}
+.forgot-pass a:hover{
+    color:rgb(167,11,11);
+
+}
+form .subBtn{
+    position:relative;
+    left:30px;
+    top:20px;
+    width:355px;
+    height:60px;
+    background:linear-gradient(180deg,#e94664,#81040a);
+    color:white;
+    font-size:30px;
+    font-weight:600;
+    outline:none;
+    border-radius:10px;
+    border:none;
+    cursor:pointer;
+}
+#sb{
+    position: relative;
+    left:165px;
+    width:38px;
+    height:38px;
+    text-align:center;
+    border:2px solid black;
+    border-radius:10px;
+    line-height: 40px;
+    color:black;
+    cursor:pointer;
+}
+.socialbtn{
+    position:relative;
+    top:20px;
+}
+#sb:hover{
+    color:rgb(161,17,29);
+    border:2px solid rgb(161,17,29);
+    transform:scale(1.1);
+}
+form .signup-link{
+    text-align:center;
+    font-size:1.2rem;
+    color:black;
+    margin:2.5rem 0;
+    
+}
+.signup-link a{
+    text-decoration: none;
+    font-weight: 600;
+    color:black;
+
+}
+.signup-link a:hover{
+    color:rgb(167,11,11);
+    transition:all .5s ease;
+}
+.socialbtn p{
+    position: relative;
+    left:155px;
+}
+.right-side{
+    position: relative;
+    left:70px;
+    background: linear-gradient(170deg,#e94664,#81040a);
+    width: 50%;
+    height: 100%;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+}
+.inner-text{
+    padding:190px 60px;
+
+}
+.inner-text h2{
+    text-align:center;
+    color:white;
+    font-weight: 600;
+}
+.inner-text p{
+    text-align: center;
+    color:white;
+}
